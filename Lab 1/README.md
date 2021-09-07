@@ -126,9 +126,9 @@ https://youtu.be/RV3dAaPuWmE
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 
-Our team is the following: 
-- Robert Konigsberg (rak275)
+Our team is the following:
 - Bella Baidak (bb568)
+- Robert Konigsberg (rak275)
 - Jose Patricio Reyes Lorenzo (jr895)
 
 # Staging Interaction, Part 2 
