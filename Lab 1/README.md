@@ -93,16 +93,16 @@ Different feedback from ourselves and other peers include:
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-<img src="./1_Wizard.JPG">
-<img src="./2_Wizard.JPG">
-<img src="./3_Wizard.JPG">
-<img src="./4_Wizard.JPG">
+<img src="./1_Wizard.jpeg">
+<img src="./2_Wizard.jpeg">
+<img src="./3_Wizard.jpeg">
+<img src="./4_Wizard.jpeg">
 
 
 \*\***Show the follow-up work here.**\*\*
 
-<img src="./Wizarding_Light.GIF">
-<img src="./Wizarding_Knob.GIF">
+<img src="./Wizarding_Light.gif">
+<img src="./Wizarding_Knob.gif">
 
 
 ## Part E. Costume the device
