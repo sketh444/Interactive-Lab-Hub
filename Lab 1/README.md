@@ -198,7 +198,7 @@ We've created a new "storyboard" that shows the wake-up functionality of the dev
 As you can see below, as bedtime neard the light lowers physically, gets less bright, and informs the user of time until bedtime (with lower volume levels). 
 
 <img src="./Storyboard_New.jpg" width="750">
-<img src="./App_New.jpg" width="500">
+<img src="./IDD_SunflowerLight_UI.png" width="500">
 
 ### Updated Device
 
