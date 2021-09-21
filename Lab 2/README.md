@@ -197,6 +197,7 @@ https://youtu.be/Yjg8sS0PzSI
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+<img src="./IDD_lab2_brainStorm.png" width="700">
 
 # Prep for Part 2
 
