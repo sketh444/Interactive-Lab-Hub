@@ -4,6 +4,8 @@ import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
+import datetime
+
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -60,11 +62,74 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+currentDate = datetime.datetime.now()
+endDate = datetime.datetime(2029, 7, 22, 9, 45, 0 ) 
+
+#currentDate = time.strftime("%m/%d/%Y %H:%M:%S")
+#t = (2029, 7, 22, 9, )
+#endDate = time.mktime(t)
+
+timeLeft= endDate - currentDate
+
+yearsLeft = timeLeft.days//360
+daysLeft = timeLeft.days%360
+minutesLeft = timeLeft.seconds// 60
+secondsLeft = timeLeft.seconds % 60
+hoursLeft = minutesLeft //60 
+minutesLeft = minutesLeft % 60
+#endDate_format = datetime.datetime(yearsLeft, daysLeft, hoursLeft, minutesLeft, secondsLeft )
+
+#print(endDate)
+#print(currentDate)
+#print(timeLeft)
+
+deadline = "0 EMISSIONS DEADLINE" 
+help =  "What can you do to help?"
+pressButton = "Hold the button to find out"
+tips = ["remember to turn off lights","use reusable water bottles", "drive less, bike more", "eat less red meat", "thrift clothing","eat locally grown foods" ]
+i = 0
+tip = " "
+
+buttonA = digitalio.DigitalInOut(board.D23)
+buttonB = digitalio.DigitalInOut(board.D24)
+buttonA.switch_to_input()
+buttonB.switch_to_input()
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+	# Shell scripts for system monitoring from here:
+    # https://unix.stackexchange.com/questions/119126/command-to-display-memory-usage-USD-usage-and-WTTR-load
+ 
+    if not buttonA.value or not buttonB.value:
+        tip = tips[i]
+        i = (i + 1) % len(tips)
+    
+    t = str(yearsLeft) + " " + "years" + " " + str(daysLeft) + " " +  "days" + " " + str(hoursLeft) + ":" + str(minutesLeft) + ":" + str(secondsLeft)    
+    # Write four lines of text.
+    x, y = 0,0
+    draw.text((x, y), deadline, font=font, fill="#FFFFFF")
+    y += font.getsize(deadline)[1]
+    draw.text((x, y), t, font=font, fill="#FFFFFF")
+    y += font.getsize(t)[1]*2
+    draw.text((x, y), help, font=font, fill="#FFFFFF")
+    y += font.getsize(help)[1]
+    draw.text((x, y), pressButton, font=font, fill="#FFFFFF")
+    y += font.getsize(pressButton)[1]     
+    draw.text((x, y), tip, font=font, fill="#00FF00")
+    y += font.getsize(pressButton)[1]
+    
+    delta = datetime.timedelta(seconds=1)
+    timeLeft = timeLeft - delta
+    yearsLeft = timeLeft.days//360
+    daysLeft = timeLeft.days%360
+    minutesLeft = timeLeft.seconds// 60 
+    secondsLeft = timeLeft.seconds % 60
+    hoursLeft = minutesLeft //60 
+    minutesLeft = minutesLeft % 60 
+#draw.text((x, y), "hshshhshsh", font=font, fill="#FF00FF")
 
     # Display image.
     disp.image(image, rotation)
