@@ -202,8 +202,10 @@ https://youtu.be/Yjg8sS0PzSI
 # Prep for Part 2
 
 1. Pick up remaining parts for kit.
+Done. 
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+The feedback I recived is that my clock does not actually tell time, which I think is fine because it was not the purpose of the product. The reviewer also liked my idea of including audio in the product. 
 
 # Lab 2 Part 2
 
