@@ -195,6 +195,8 @@ For our project we modifyed the clock to be the deadline clock to reach 0 emissi
 PI SAVES THE WORLD: 
 https://youtu.be/Yjg8sS0PzSI
 
+For this lab I worked with Jay Chand(jpc342). 
+
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
@@ -226,5 +228,6 @@ Some feedback we got is that our clock may not be the best for actually telling 
 For the updates to our display we added a new screen displaying the 0 emmisions deadline clock alone. We also incorporated the joy stick as a new piece of hardware. When on the tip screen if you swipe up or down with the joy stick a new tip on how help reach 0 emissions will be displayed. When you moved the joy stick horizontally it switches between the tip screen and just the 0 emission clock screen. 
 
 Check out our updates in this video: 
+https://youtu.be/RkIFK3NXVbI
 
 
