@@ -227,6 +227,8 @@ Some feedback we got is that our clock may not be the best for actually telling 
 
 For the updates to our display we added a new screen displaying the 0 emmisions deadline clock alone. We also incorporated the joy stick as a new piece of hardware. When on the tip screen if you swipe up or down with the joy stick a new tip on how help reach 0 emissions will be displayed. When you moved the joy stick horizontally it switches between the tip screen and just the 0 emission clock screen. 
 
+To get the joystick working we used QwiicJoystickPy libary. 
+
 Check out our updates in this video: 
 https://youtu.be/RkIFK3NXVbI
 
