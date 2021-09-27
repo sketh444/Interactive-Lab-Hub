@@ -5,7 +5,7 @@ import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 import datetime
-
+import qwiic_joystick
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -89,11 +89,22 @@ pressButton = "Hold the button to find out"
 tips = ["remember to turn off lights","use reusable water bottles", "drive less, bike more", "eat less red meat", "thrift clothing","eat locally grown foods" ]
 i = 0
 tip = " "
+DEADLINE = "DEADLINE"
 
 buttonA = digitalio.DigitalInOut(board.D23)
 buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
+
+myJoystick = qwiic_joystick.QwiicJoystick()
+
+prev = 512
+prev2 = 512 
+loop = 0 
+screen = False  
+
+#new font 
+font2 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",30)
 
 while True:
     # Draw a black filled box to clear the image.
@@ -106,31 +117,61 @@ while True:
     if not buttonA.value or not buttonB.value:
         tip = tips[i]
         i = (i + 1) % len(tips)
-    
+
+    if myJoystick.connected == True:
+        if myJoystick.vertical > 1000 and prev < 1000: #updirection 
+            tip = tips[i]
+            i = (i + 1) % len(tips)
+        if myJoystick.vertical < 100 and prev > 100: #downdirection 
+            i = (i - 1) % len(tips)
+            if i < 0: 
+               i = len(tips) - 1 
+            tip = tips[i]
+        if myJoystick.horizontal > 1000 and prev2 < 1000:
+           screen  = not screen 
+        if myJoystick.horizontal < 100 and prev2 > 100:
+           screen  = not screen 
+
+    prev = myJoystick.vertical
+    prev2 = myJoystick.horizontal
+
     t = str(yearsLeft) + " " + "years" + " " + str(daysLeft) + " " +  "days" + " " + str(hoursLeft) + ":" + str(minutesLeft) + ":" + str(secondsLeft)    
     # Write four lines of text.
-    x, y = 0,0
-    draw.text((x, y), deadline, font=font, fill="#FFFFFF")
-    y += font.getsize(deadline)[1]
-    draw.text((x, y), t, font=font, fill="#FFFFFF")
-    y += font.getsize(t)[1]*2
-    draw.text((x, y), help, font=font, fill="#FFFFFF")
-    y += font.getsize(help)[1]
-    draw.text((x, y), pressButton, font=font, fill="#FFFFFF")
-    y += font.getsize(pressButton)[1]     
-    draw.text((x, y), tip, font=font, fill="#00FF00")
-    y += font.getsize(pressButton)[1]
     
-    delta = datetime.timedelta(seconds=1)
-    timeLeft = timeLeft - delta
-    yearsLeft = timeLeft.days//360
-    daysLeft = timeLeft.days%360
-    minutesLeft = timeLeft.seconds// 60 
-    secondsLeft = timeLeft.seconds % 60
-    hoursLeft = minutesLeft //60 
-    minutesLeft = minutesLeft % 60 
+    
+    if screen == False:
+       x, y = 0,0
+       draw.text((x, y), deadline, font=font, fill="#FFFFFF")
+       y += font.getsize(deadline)[1]
+       draw.text((x, y), t, font=font, fill="#FFFFFF")
+       y += font.getsize(t)[1]*2
+       draw.text((x, y), help, font=font, fill="#FFFFFF")
+       y += font.getsize(help)[1]
+       draw.text((x, y), pressButton, font=font, fill="#FFFFFF")
+       y += font.getsize(pressButton)[1]     
+       draw.text((x, y), tip, font=font, fill="#00FF00")
+       y += font.getsize(pressButton)[1]
+    else:
+       if loop % 10 >= 5: 
+          draw.text((50, 10), DEADLINE, font=font2, fill="#FF0000")
+       else:
+          draw.text((50, 10), DEADLINE, font=font2)
+       y += font.getsize(DEADLINE)[1]
+       draw.text((0, 50), t, font=font, fill="#FFFFFF")
+       y += font.getsize(t)[1]*2    
+
+    if loop % 10 == 0:
+       delta = datetime.timedelta(seconds=1)
+       timeLeft = timeLeft - delta
+       yearsLeft = timeLeft.days//360
+       daysLeft = timeLeft.days%360
+       minutesLeft = timeLeft.seconds// 60 
+       secondsLeft = timeLeft.seconds % 60
+       hoursLeft = minutesLeft //60 
+       minutesLeft = minutesLeft % 60 
 #draw.text((x, y), "hshshhshsh", font=font, fill="#FF00FF")
+    loop += 1 
 
     # Display image.
     disp.image(image, rotation)
-    time.sleep(1)
+    time.sleep(.1)
