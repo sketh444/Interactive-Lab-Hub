@@ -101,17 +101,52 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
-\*\***Post your storyboard and diagram here.**\*\*
+<img src="./IDD_lab3_storyboard.png" width="700">
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
-\*\***Please describe and document your process.**\*\*
+The interaction starts by the user asking the fridge for a recipe. The Fridge will then uses cameras and computer vision to see what is in the users fridge and provide a recipe based on what is available. The fridge will then go through the recipe step by step based on the users conversational cues. Below is an example interaction, at any point the user can ask the fridge what is the next in the recipe, to repeat a step, or ask a specific/ clarifying question about the recipe. 
+
+Person: I am hungry, fridge tell me what I can make ? 
+
+Fridge: Based on what you have in your fridge you can make chicken and salad
+
+Person: Super, how do I get started ?!
+
+Fridge: Open up your fridge and take out the chicken, lettuce, tomato, onion, and avocado 
+
+Person: Done what’s next ?
+
+Fridge: Place a pan on your stove, pour a bit of oil in it, turn on the stove to medium heat, place the chicken in the pan, and season to your liking
+
+Person: How long do I cook the chicken for ? 
+
+Fridge: Until it turns light brown 
+
+Person: Got it! Whats next ? 
+
+Fridge: Chop up veggies in a large bowl and dress to your liking 
+
+*Person finishes cooking and sits down to eat* 
+
+*Person takes first bite* 
+
+Person: Wow, so good!! Thanks fridge 
+
+Fridge: No problem! I always have your back
+
 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
-\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+Prior to this excerise I described the device to my partner Jay Chand (jpc342) and the particular use case we were prototyping. 
+"The device is a smart fridge that has the ability to look in your fridge and tell you what you can make based on the food available. You are hungry for dinner and are going to ask your fridge for a recipe". 
+
+Audio from partner excersie: 
+https://www.youtube.com/watch?v=bcv0Gxq0tYY
+
+Some feedback my partner gave me on my dialogue is that at times it was bit open ended, they didn't know what to do next and the device did not check in on them. To fix this the device will have to have a timer of sorts and check in on the users progress after a certain amount of time with no interaction. Another example is when my device told Jay to dress the salad how he would like, this was too vague and he didn't know what to do. The device should have given more clear options in this case like you have ceasar salad dressing in your fridge or you can dress the salad with oil and vinegar. Also my device didn't report to Jay when he had finished cooking and it was time to eat this was a bit awkward. 
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
