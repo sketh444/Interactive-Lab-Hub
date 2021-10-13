@@ -8,6 +8,7 @@ import time
 import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
+import adafruit_rgb_display.st7789 as st7789
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -65,10 +66,20 @@ wf2 = wave.open(sys.argv[1], "rb")
 model = Model("model")
 # You can also specify the possible word list
 rec = KaldiRecognizer(model, wf.getframerate(), "yes no")
-rec2 = KaldiRecognizer(model, wf2.getframerate(), "yes no")
 
 counter = 1
+
+image = Image.open("IDD_step1.jpg")
+image = image.convert("RGB")
+image = image.resize((width, height), Image.BICUBIC)
+disp.image(image, rotation)
+
+
 while True:
+            # image = Image.open("IDD_step1.jpg")
+             #image = image.convert("RGB")
+            # image = image.resize((width, height), Image.BICUBIC)
+             #disp.image(image, rotation)
              data = wf.readframes(4000)
              if len(data) == 0:
                  break
@@ -81,6 +92,10 @@ while True:
                  print(s3)
                  print(len(s3))
                  if len(s3) == 7:
+                     image = Image.open("IDD_step2.jpg")
+                     image = image.convert("RGB")
+                     image = image.resize((width, height), Image.BICUBIC)
+                     disp.image(image, rotation)
                      os.popen('sh /home/pi/Interactive-Lab-Hub/Lab3/yes.sh') 
                      time.sleep(15)
                      os.popen('sh /home/pi/Interactive-Lab-Hub/Lab3/next.sh')
