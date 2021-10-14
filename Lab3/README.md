@@ -171,6 +171,8 @@ To clarify the interaction and instructions, I incorporated images into the deis
 
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
+<img src="./IDD_Lab3_p2_storyboard.jpg" width="700">
+
 ## Prototype your system
 
 The system should:
@@ -198,5 +200,5 @@ Instructions need to be very clear to the user if they are being given. The devi
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 I could use my system to gain insight how much time it takes for users to complete each step during a recipe. What steps take longer and how much time users like in between hearing the next step. I could also use it to learn how to instruct the user in a clear way they will understand. This is a silly video that shows the importance of giving clear instructions which is definitly essential with recipes:
-https://www.youtube.com/watch?v=Ct-lOOUqmyY
+https://www.youtube.com/watch?v=Ct-lOOUqmyY .
 It would also be interesting to see users sucess and satifaction with a recipe depending on what wording was used to give the recipe. For other modalities, it would be interesting to incorporate other smart kitchen appliances. For example, based on the recipe given by the fridge, the stove will know how hot it should be and set its self to the proper heat. The stove could also let the user know when something is done cooking. 
