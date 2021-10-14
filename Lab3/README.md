@@ -182,6 +182,8 @@ The system should:
 
 *Document how the system works*
 
+Video of system in action:
+
 https://www.youtube.com/watch?v=V_TOw1BTITg
 
 ## Test the system
