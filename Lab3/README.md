@@ -105,6 +105,8 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
+The decieve that I am creating is a smart fridge agent that tells the user a recipe based on what's in thier fridge. 
+
 The interaction starts by the user asking the fridge for a recipe. The Fridge will then uses cameras and computer vision to see what is in the users fridge and provide a recipe based on what is available. The fridge will then go through the recipe step by step based on the users conversational cues. Below is an example interaction, at any point the user can ask the fridge what is the next in the recipe, to repeat a step, or ask a specific/ clarifying question about the recipe. 
 
 Person: I am hungry, fridge tell me what I can make ? 
@@ -160,7 +162,13 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+To improve my device, I made the dialogue much simpler and only allowed the user to respond with yes or no answers. This made the interaction and instructions much more clear to the user. Another thing I added per my partners suggestion is some check in points so before the fridge tells the user the next step in the recipe it will ask if they are ready. This makes the interaction much yes vague and the user always will feel engaged. 
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+To clarify the interaction and instructions, I incorporated images into the deisgn that go along with the recipe. This allows the user to keep track of what step they are on and gives them some directions on how to make the recipe. In future I would like to add gifs or videos to show the user exactly what to do at each step. I would also like to add buttons to the device so the user also has the option to move through the recipe without communicating with the fridge if they want to. 
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system
@@ -180,17 +188,15 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+My test users reported that the instructions were clear and they were able to move through the recipe easily. When testing it with users something that was awkward was that the device gives the user time to complete each step and my users were not actually doing the recipe so they just waited in silences for time window for each step to end. Additionally user wished that they were able to skip to the next step when completing the previous before the per set time limit given by the fridge. 
 
 ### What worked well about the controller and what didn't?
-
-\*\**your answer here*\*\*
+For the most part the voice controller worked smoothly, users were able to move their the recipe by giving yes and no answers. As mentioned above something about the controller that did not work well was the fact that the users could not skip to the next step if they finished the step in the recipe early. Also if the user reported to the fridge when promoted they need more time on a step the fridge would only give them 30 more secs to complete the step before giving the next step in the recipe. Although the BLT example recipe given here was very simple, user through that this may be problematic with more complex recipes. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-\*\**your answer here*\*\*
-
+Instructions need to be very clear to the user if they are being given. The device needs to account or try to account for all possible ways the user could interaction with it. In the future when designing Woz interactions, I will try to make my device as reactive as possible. 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-\*\**your answer here*\*\*
+I could use my system to gain insight how much time it takes for users to complete each step during a recipe. What steps take longer and how much time users like in between hearing the next step. I could also use it to learn how to instruct the user in a clear way they will understand. This is a silly video that shows the importance of giving clear instructions which is definitly essential with recipes:
+https://www.youtube.com/watch?v=Ct-lOOUqmyY
+It would also be interesting to see users sucess and satifaction with a recipe depending on what wording was used to give the recipe. For other modalities, it would be interesting to incorporate other smart kitchen appliances. For example, based on the recipe given by the fridge, the stove will know how hot it should be and set its self to the proper heat. The stove could also let the user know when something is done cooking. 
