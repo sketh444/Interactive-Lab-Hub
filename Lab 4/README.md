@@ -257,12 +257,15 @@ Think about how you want to present the information about what your sensor is se
 
 Design 1: 
 ![deisgn1](https://user-images.githubusercontent.com/73661058/137840538-fce9116c-f8c6-490c-8aea-50378f967c1d.jpg)
+This sketch raises the question of what material should we use for the buttons attached to the touch sensors. We know that we need to use something conductive so we thought to use some sort of aluminium. 
 
 Design 2: 
 ![design2](https://user-images.githubusercontent.com/73661058/137840551-86700f8a-a290-40ac-bac1-20674814b3e5.jpg)
+This sketch also raised questions about what materials we should use for the buttons or knobs in the design. We choose to go with the classic choice twizzlers. These would be stuck through holes in a cardboard game board and connected with alligator clips underneath the board. We also wanted to incorporate a cool design/mascot into the decive, we chose to use an owl. This raised questions of how we could make this structurally work. To answer this question our idea was to put the pi behind the owl display. 
 
 Design 3: 
 ![design3](https://user-images.githubusercontent.com/73661058/137840569-b5e86bb8-4b00-4b29-bfcc-6bc6238317aa.jpg)
+In this sketch we wanted to explore using a mode of communication with the users different than voice. To do this we choose to display the french would instead of speaking it to the user. We were questions with how could we do this in a creative way, we choose to make the display look like a dictionary. 
 
 Design 4: 
 ![design4](https://user-images.githubusercontent.com/73661058/137840601-42f0c0d1-3112-4a2e-aeb6-6453237c2330.jpg)
@@ -292,7 +295,7 @@ Close up on the design:
 Inside the design: 
 ![proto_inside](https://user-images.githubusercontent.com/73661058/137840859-a33aecf8-c68f-467e-92d5-96f578fc1787.jpg)
 
-
+For this lab I worked with Soul Choi. 
 
 LAB PART 2
 
