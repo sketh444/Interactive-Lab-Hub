@@ -177,8 +177,41 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
-**\*\*\*Pick one of these designs to prototype.\*\*\***
+Idea 1: Distance sensors in the floor at a store to alert people if they are standing closer then 6 feet to one another. 
+The larger device is the system of both the sensor in the floor and a speaker on the ceiling. The floor sensors will be 6 feet a part and notify the speaker to beep if they sense someone has broken the 6 feet rule. 
+![idea1](https://user-images.githubusercontent.com/73661058/137837271-6d212f9f-f9a4-41c8-8bf4-cd2580f4a9bf.jpg)
 
+- Where should the distance sensor be positioned physically in various store setting so it can effectively measure the distance between the people in line? 
+ > a prototype of an attachable sensor design that can easily be re-positioned. The size, weight, and angle to measure the distance would be critical in this prototype.
+
+Idea 2: Touch sensors under a chair to detect when a person sits down at their desk thier lamp turns on.
+The larger device is the system of both the sensor on the chair and the lamp. The touch sensor will detect the touch of someone sitting down and it will communicate withe the light when it detects touch. 
+![idea2](https://user-images.githubusercontent.com/73661058/137837501-1f5aa437-8846-40de-91ca-c4e4a80a5240.jpg)
+
+- Would the user seating on a chair feel like the sensor on the bottom uncomfortable? How can we make the device not physically disturbing to the user but still positioned in the most effective spot(e.g. right under the seating area of chair)? 
+ > a prototype with different coverings of the sensor which can test how the user feel when they're sitting on it. building with an actual chair and positioning them in different spots can be helpful too. 
+
+Idea 3: This is idea is an interactive story book. As a child reads through a book they can touch the images and they will come to live in animation in a near by monitor. The story book would be made out of conductive material attached to touch sensor to detect when a particular image is touched. When the sensor detcts touch it would communicate with the monitor and on what animation to display. 
+![idea3](https://user-images.githubusercontent.com/73661058/137838174-56edf778-a1ea-4873-a200-13f3c7eab51a.jpg)
+
+- How can the touch sensors be attatched to a book but not disturb the reader? How can we section out certain part of the page to be connected with a specific sensor?
+ > a prototype of an interactive book that each page is thick enough to hold the sensors. Explore with different conductive materials that can be easily attatched to the pages for the sensors. 
+
+Idea 4: This idea is a language learning game. The decive says a word in french and the players task is to touch the corresponding connected word in english. The Pi and speaker will be in a box with touch sensors connected attached to connective buttons the user can touch. 
+![idea4](https://user-images.githubusercontent.com/73661058/137839198-1eb78e94-e861-4689-9f5e-af8a4a574e06.jpg)
+
+- What kind of casing is needed to cover the device and make all the wires look neater? What kind of conductive material should be used? What size of the panel is appropriate?
+ > a prototype to explore different size and material of the casing and the panel. 
+
+Idea 5: This is a yoga alram clock. Users must walk up to the alram clock and do a yoga pose for it to shut it up. The larger device must use motion sensors and pose recognition in its design to sense when to quiet itself. The larger device will also have a speaker to scream at the user to wake up. 
+![idea5](https://user-images.githubusercontent.com/73661058/137839680-06d7a7e7-922b-4694-bc22-ebe81474f4a4.jpg)
+
+- What is the best way to implement the motion detection/pose recognition? What is a good pose that's moderately hard for the users (so they can be awoke) and easy for the sensor to recognize? What is the appropriate distance? Where should the camera be placed in the clock?
+> a prototype to test the recognition functions and to determine the place for the camera.
+
+
+**\*\*\*Pick one of these designs to prototype.\*\*\***
+The design we are choosing to prototype is the idea 4, the language learning game. 
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -222,13 +255,43 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+Design 1: 
+![deisgn1](https://user-images.githubusercontent.com/73661058/137840538-fce9116c-f8c6-490c-8aea-50378f967c1d.jpg)
+
+Design 2: 
+![design2](https://user-images.githubusercontent.com/73661058/137840551-86700f8a-a290-40ac-bac1-20674814b3e5.jpg)
+
+Design 3: 
+![design3](https://user-images.githubusercontent.com/73661058/137840569-b5e86bb8-4b00-4b29-bfcc-6bc6238317aa.jpg)
+
+Design 4: 
+![design4](https://user-images.githubusercontent.com/73661058/137840601-42f0c0d1-3112-4a2e-aeb6-6453237c2330.jpg)
+
+Design 5: 
+![design5](https://user-images.githubusercontent.com/73661058/137840625-4b0dce35-1038-4fa4-be8c-d29e8f0a8baf.jpg)
+
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+
+We decided to prototype design 4. 
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
+
+Overall Design: 
+![proto2](https://user-images.githubusercontent.com/73661058/137840764-323cb2e4-30a5-4f55-a6d8-93ecc214fc37.jpg)
+
+User Interacting with the deisgn: 
+![proto1](https://user-images.githubusercontent.com/73661058/137840800-d08f5ce3-9017-4da6-994d-f73c0d11d739.jpg)
+
+Close up on the design: 
+![proto_closeup](https://user-images.githubusercontent.com/73661058/137840836-b60b5a31-bfb6-42c1-84cf-17ffb098a08d.jpg)
+
+Inside the design: 
+![proto_inside](https://user-images.githubusercontent.com/73661058/137840859-a33aecf8-c68f-467e-92d5-96f578fc1787.jpg)
+
 
 
 LAB PART 2
