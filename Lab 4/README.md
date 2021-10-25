@@ -362,7 +362,7 @@ And printed out the texts to find the right size, iterated three times(ouch!) be
 
 * "Works like": shows what the device can do
 
-Pierre the Owl is an interactive game device to learn basic French. It's a competition game between two players. Pierre speaks out loud a French vocabulary to teac and players will compete to find the corresponding English word faster. 
+Pierre the Owl is an interactive game device to learn basic French. It's a competition game between two players. Pierre speaks out loud a French word and players will compete to find the corresponding English word faster. 
 
 When the user presses any button to start(as instructed by the text on the box), Pierre the Owl, our beloved French teacher begin speaking. It introduces herself and explain the game rule:
 > "Bonjour!
@@ -385,5 +385,5 @@ https://user-images.githubusercontent.com/42717070/138573814-7f809f69-7de2-459a-
 
 
 
-Players will find this device placed on a desk. Walk up to it, read the texts on the box, find out it's a device to learn French and presse the button to start if interested. After listening to Pierre's verbal instructions, players will touch the card that they think is the answer. If the players wish to listen to the French word again, he/she can press any of the buttons.
+Players will find this device placed on a desk. Walk up to it, read the texts on the box, find out it's a device to learn French and press the button to start if interested. After listening to Pierre's verbal instructions, players will touch the card that they think is the answer. If the players wish to listen to the French word again, he/she can press any of the buttons.
 
