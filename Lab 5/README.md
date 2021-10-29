@@ -207,8 +207,16 @@ Our device will be made up of a 3D printed Morpheus and cardboard box behind him
 The way the interaction will work is when the device is turned on Morpheus will start speaking "This is your last chance, after this there is no turning back. You take the blue pill the story ends and you wake up in your bed and belive whatever you want to belive. You take the red pill you stay in wonderland and I show you how deep the rabit hole goes". This will promt the user to choose either a red or blue pill from Morpheus's hands. As the user picks up the pill from Morpheus's hands a camera in the back the box behind Morpheus will detect whether the pill selected is blue or red using a model we trained using trainable machines. Based on the users selection a candy pill will be despensed through a slide at the bottom of the device. 
 
 Device design: 
+
+Font- 
+
+<img width="548" alt="Screen Shot 2021-10-28 at 11 11 44 PM" src="https://user-images.githubusercontent.com/73661058/139367522-cb5e20a9-a646-44f4-a2f1-1fe3dc160553.png">
+
 Back/inside-
+
 <img width="503" alt="Screen Shot 2021-10-28 at 10 54 17 PM" src="https://user-images.githubusercontent.com/73661058/139366050-552c59a1-0333-4ab1-a440-c647f09ece42.png">
+
+Other experimentation and ideation: 
 
 
 
