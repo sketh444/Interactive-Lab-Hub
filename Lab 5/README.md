@@ -208,7 +208,7 @@ The way the interaction will work is when the device is turned on Morpheus will 
 
 Device design: 
 
-Font- 
+Front- 
 
 <img width="548" alt="Screen Shot 2021-10-28 at 11 11 44 PM" src="https://user-images.githubusercontent.com/73661058/139367522-cb5e20a9-a646-44f4-a2f1-1fe3dc160553.png">
 
@@ -217,6 +217,17 @@ Back/inside-
 <img width="503" alt="Screen Shot 2021-10-28 at 10 54 17 PM" src="https://user-images.githubusercontent.com/73661058/139366050-552c59a1-0333-4ab1-a440-c647f09ece42.png">
 
 Other experimentation and ideation: 
+
+<img width="463" alt="Screen Shot 2021-10-28 at 11 15 58 PM" src="https://user-images.githubusercontent.com/73661058/139369663-5a6a0543-1146-4472-a3a8-3a94be87e219.png">
+
+<img width="358" alt="Screen Shot 2021-10-28 at 11 15 51 PM" src="https://user-images.githubusercontent.com/73661058/139369888-7d28ded7-385b-4cfe-833e-529e33938e1e.png">
+
+<img width="580" alt="Screen Shot 2021-10-28 at 11 15 38 PM" src="https://user-images.githubusercontent.com/73661058/139369962-c65a8d46-16ed-4412-85cc-0f68cc254c6b.png">
+
+<img width="637" alt="Screen Shot 2021-10-28 at 11 14 42 PM" src="https://user-images.githubusercontent.com/73661058/139370000-4af3b001-422a-4539-ad11-1621b2718cc8.png">
+
+<img width="871" alt="Screen Shot 2021-10-28 at 11 15 22 PM" src="https://user-images.githubusercontent.com/73661058/139369981-0ad65d32-f152-47de-966a-f07a1d36f2d2.png">
+
 
 
 
