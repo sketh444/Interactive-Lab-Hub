@@ -229,8 +229,6 @@ Other experimentation and ideation:
 <img width="871" alt="Screen Shot 2021-10-28 at 11 15 22 PM" src="https://user-images.githubusercontent.com/73661058/139369981-0ad65d32-f152-47de-966a-f07a1d36f2d2.png">
 
 
-
-
 ### Part C
 ### Test the interaction prototype
 
@@ -253,12 +251,18 @@ For example:
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+Are device can be used for a fun and interactive way to eat red and blue candy. 
 * What is a good environment for X?
+A good environment would be in a Matrix enthusiasts home, perhaps on their desk or coffee table. Ideally when the interaction takes place the backround will be clear so Morpheus camera can clearly see the red or blue pill.  
 * What is a bad environment for X?
+A Bad environment would be somewhere crowded where the device can not clearly pick up on the detection of the red or blue pill which is essental for the interaction to work correctly. Another bad environmemt would be in ther presents on a non Matrix enthusiasts or Matrix hater. 
 * When will X break?
+The device will break any of its parts stoped working, the camera, the Pi, or the motors. The device would also break if it was phsyically destroyed, Morpheus was smashed or disasembled from his box set up. Anther way the device could break is if the red and blue pills where taken from Morpheus hands, the user would not know what to do or how to interact with the device. Lastly the device would break if the candy it dispenses runs out. 
 * When it breaks how will X break?
 * What are other properties/behaviors of X?
+The device reenacts a classic sense from the Matrix through audio and user interaction. The device has computer vision and detect red and blue pills. The device can make dispensing decsions based on the sight of red or blue pills. The device dispenses red and blue candy. The devive allows for appreciation of the Matrix. 
 * How does X feel?
+The devices like a plastic 3D model and cardboard. It also feels like delious candy in the users mouth. 
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
