@@ -100,6 +100,21 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+<img width="356" alt="Screen Shot 2021-11-02 at 12 32 43 AM" src="https://user-images.githubusercontent.com/42717070/139787655-24ad59c3-9ec4-4608-a086-15a4a97413cf.png">
+- object detection: could be used in detecting if someone has a full equipment set ready before starting some DIY projects/cooking/any project that require a set of objects ready.
+
+
+<img width="381" alt="Screen Shot 2021-11-02 at 12 19 15 AM" src="https://user-images.githubusercontent.com/42717070/139787657-e5002063-ff9c-4586-90db-edd80dcb2339.png">
+- Face recognition: could be used in detecting whether someone is wearing a mask or not when entering an indoor space during pandemic.
+
+
+<img width="373" alt="Screen Shot 2021-11-02 at 12 39 28 AM" src="https://user-images.githubusercontent.com/42717070/139787828-fbc84e10-cb29-4d1f-860c-706be215946e.png">
+- flow detection: could be used in studying the workflow of physicians during treatments/surgery and improving the environment/interior accordingly.
+
+
+<img width="348" alt="Screen Shot 2021-11-02 at 12 41 11 AM" src="https://user-images.githubusercontent.com/42717070/139787927-dd66a04d-c16a-41d8-ad26-889b4c89d806.png">
+- contour detection: could be used in detecting shapes of organs and automating the annotation on top of a medical image. Or it could be used in detecting a logo and shape of a car and tell the maker and model of a car.
+
 #### MediaPipe
 
 A more recent open source and efficient method of extracting information from video streams comes out of Google's [MediaPipe](https://mediapipe.dev/), which offers state of the art face, face mesh, hand pose, and body pose detection.
@@ -134,10 +149,14 @@ Each of the installs will take a while, please be patient. After successfully in
 
 Try the two main features of this script: 1) pinching for percentage control, and 2) "[Quiet Coyote](https://www.youtube.com/watch?v=qsKlNVpY7zg)" for instant percentage setting. Notice how this example uses hardcoded positions and relates those positions with a desired set of events, in `hand_pose.py` lines 48-53. 
 
+<img width="675" alt="Screen Shot 2021-11-02 at 12 58 07 AM" src="https://user-images.githubusercontent.com/42717070/139789320-1fab301a-8432-4f35-96db-c0c8e124386a.png">
+<img width="340" alt="Screen Shot 2021-11-02 at 1 00 59 AM" src="https://user-images.githubusercontent.com/42717070/139789326-488f21ac-b5da-44e5-8a14-a52b8505a762.png">
+
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
 
-(You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
+It could be used as detecting a hand sign to signal the level of pain during a dentist visit. haha Usually they tell me to raise my left arm since I cannot speak while they're working on my mouth but it can only have binary extreme senario- YES pain and NO pain. Usually it's somewhere in between. Using the relative finger positions used in this system, we could detect four different levels of pain expressed by connecting one of the fingers to the thumb.
 
+(You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
 
 #### Teachable Machines
@@ -167,6 +186,9 @@ This might take a while to get fully installed. After installation, connect your
 (tmachine) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ python tm_ppe_detection.py
 ```
 
+<img width="929" alt="Screen Shot 2021-11-02 at 1 23 36 AM" src="https://user-images.githubusercontent.com/42717070/139794388-c37554e2-cd57-44a9-8feb-3058617f7ac9.png">
+<img width="1085" alt="Screen Shot 2021-11-02 at 1 33 08 AM" src="https://user-images.githubusercontent.com/42717070/139794390-2eba20e7-2dc5-4042-af84-efcea5c1a8bf.png">
+I was not sure if the detection from teachable model was performing well from the given code, as it was detecting my cup, phone, and hand all as 'mask'. However, it did perform very well when I trained my own images. I trained four classes: me holding a blue piece of paper, red piece of paer, empty background, and me holding nothing(face).
 
 (**Optionally**: You can train your own model, too. First, visit [TeachableMachines](https://teachablemachine.withgoogle.com/train), select Image Project and Standard model. Second, use the webcam on your computer to train a model. For each class try to have over 50 samples, and consider adding a background class where you have nothing in view so the model is trained to know that this is the background. Then create classes based on what you want the model to classify. Lastly, preview and iterate, or export your model as a 'Tensorflow' model, and select 'Keras'. You will find an '.h5' file and a 'labels.txt' file. These are included in this labs 'teachable_machines' folder, to make the PPE model you used earlier. You can make your own folder or replace these to make your own classifier.)
 
