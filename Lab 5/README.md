@@ -100,19 +100,16 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
-<img width="356" alt="Screen Shot 2021-11-02 at 12 32 43 AM" src="https://user-images.githubusercontent.com/42717070/139787655-24ad59c3-9ec4-4608-a086-15a4a97413cf.png">
+<img width="478" alt="Screen Shot 2021-11-02 at 8 26 42 PM" src="https://user-images.githubusercontent.com/73661058/139969662-fdffef1f-2050-4b16-8e99-7ae6a6672b6b.png">
 - object detection: could be used in detecting if someone has a full equipment set ready before starting some DIY projects/cooking/any project that require a set of objects ready.
 
-
-<img width="381" alt="Screen Shot 2021-11-02 at 12 19 15 AM" src="https://user-images.githubusercontent.com/42717070/139787657-e5002063-ff9c-4586-90db-edd80dcb2339.png">
+<img width="566" alt="Screen Shot 2021-11-02 at 8 21 57 PM" src="https://user-images.githubusercontent.com/73661058/139969610-a367d8ea-dd01-468e-bc39-4d2b6c46fa41.png">
 - Face recognition: could be used in detecting whether someone is wearing a mask or not when entering an indoor space during pandemic.
 
-
-<img width="373" alt="Screen Shot 2021-11-02 at 12 39 28 AM" src="https://user-images.githubusercontent.com/42717070/139787828-fbc84e10-cb29-4d1f-860c-706be215946e.png">
+<img width="591" alt="Screen Shot 2021-11-02 at 8 24 31 PM" src="https://user-images.githubusercontent.com/73661058/139969621-a1c16e11-f278-40e8-b9d6-3f38b5972630.png">
 - flow detection: could be used in studying the workflow of physicians during treatments/surgery and improving the environment/interior accordingly.
 
-
-<img width="348" alt="Screen Shot 2021-11-02 at 12 41 11 AM" src="https://user-images.githubusercontent.com/42717070/139787927-dd66a04d-c16a-41d8-ad26-889b4c89d806.png">
+<img width="525" alt="Screen Shot 2021-11-02 at 8 19 49 PM" src="https://user-images.githubusercontent.com/73661058/139969645-8e722210-4092-4097-8adb-cd0fae17209b.png">
 - contour detection: could be used in detecting shapes of organs and automating the annotation on top of a medical image. Or it could be used in detecting a logo and shape of a car and tell the maker and model of a car.
 
 #### MediaPipe
