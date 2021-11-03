@@ -146,8 +146,10 @@ Each of the installs will take a while, please be patient. After successfully in
 
 Try the two main features of this script: 1) pinching for percentage control, and 2) "[Quiet Coyote](https://www.youtube.com/watch?v=qsKlNVpY7zg)" for instant percentage setting. Notice how this example uses hardcoded positions and relates those positions with a desired set of events, in `hand_pose.py` lines 48-53. 
 
-<img width="675" alt="Screen Shot 2021-11-02 at 12 58 07 AM" src="https://user-images.githubusercontent.com/42717070/139789320-1fab301a-8432-4f35-96db-c0c8e124386a.png">
-<img width="340" alt="Screen Shot 2021-11-02 at 1 00 59 AM" src="https://user-images.githubusercontent.com/42717070/139789326-488f21ac-b5da-44e5-8a14-a52b8505a762.png">
+<img width="583" alt="Screen Shot 2021-11-02 at 8 37 47 PM" src="https://user-images.githubusercontent.com/73661058/139970258-0fcbfabe-b42b-48ce-9ce3-c81a703f9a2d.png">
+
+<img width="608" alt="Screen Shot 2021-11-02 at 8 37 16 PM" src="https://user-images.githubusercontent.com/73661058/139970262-da5ff4f5-ce9a-4565-9372-9adffbd4155f.png">
+
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
 
