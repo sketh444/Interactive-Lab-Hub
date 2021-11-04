@@ -225,7 +225,7 @@ https://user-images.githubusercontent.com/73661058/139364599-9e9ed69a-d9c1-4b22-
 Our device will be made up of a 3D printed Morpheus and cardboard box behind him to store the Pi, camera, motors, and pill dispensors. 
 The way the interaction will work is when the device is turned on Morpheus will start speaking "This is your last chance, after this there is no turning back. You take the blue pill the story ends and you wake up in your bed and belive whatever you want to belive. You take the red pill you stay in wonderland and I show you how deep the rabit hole goes". This will promt the user to choose either a red or blue pill from Morpheus's hands. As the user picks up the pill from Morpheus's hands a camera in the back the box behind Morpheus will detect whether the pill selected is blue or red using a model we trained using trainable machines. Based on the users selection a candy pill will be despensed through a slide at the bottom of the device. 
 
-Device design: 
+Device design plan: 
 
 Front- 
 
@@ -246,6 +246,10 @@ Other experimentation and ideation:
 <img width="637" alt="Screen Shot 2021-10-28 at 11 14 42 PM" src="https://user-images.githubusercontent.com/73661058/139370000-4af3b001-422a-4539-ad11-1621b2718cc8.png">
 
 <img width="871" alt="Screen Shot 2021-10-28 at 11 15 22 PM" src="https://user-images.githubusercontent.com/73661058/139369981-0ad65d32-f152-47de-966a-f07a1d36f2d2.png">
+
+Morpheus 3D printed design: 
+
+<img width="534" alt="Screen Shot 2021-11-04 at 9 40 32 AM" src="https://user-images.githubusercontent.com/73661058/140323790-d80b25dd-9562-47ae-b519-d6887ec64ebf.png">
 
 
 ### Part C
