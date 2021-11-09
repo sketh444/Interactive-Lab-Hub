@@ -293,4 +293,6 @@ The devices like a plastic 3D model and cardboard. It also feels like delious ca
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
-**\*\*\*Include a short video demonstrating the finished result.\*\*\***
+https://user-images.githubusercontent.com/73661058/140865315-8168582a-f1fa-4041-8eff-4fa0b44ae20b.mov
+
+
