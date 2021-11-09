@@ -218,14 +218,23 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
-For this lab we will be creating an interactive Morpheus (from the Matrix) device that dispenses red or blue pills (Candy) based on the users choice. We will specifically be re-creating the scene below and using exact audio from the scene in our device. 
+### interactive Morpheus (from the Matrix) device that dispenses red or blue pills (Candy) based on the users choice.
+#### We will specifically be re-creating the scene below and using exact audio from the scene in our device. 
+
+**Major interaction involving the camera and the image recognition models we tried is to detect whether the user is holding a blue pill or a red pill, using the teachable machine. **
+
+
 
 https://user-images.githubusercontent.com/73661058/139364599-9e9ed69a-d9c1-4b22-b7e4-0f0195026e1e.mov
 
-Our device will be made up of a 3D printed Morpheus and cardboard box behind him to store the Pi, camera, motors, and pill dispensors. 
-The way the interaction will work is when the device is turned on Morpheus will start speaking "This is your last chance, after this there is no turning back. You take the blue pill the story ends and you wake up in your bed and belive whatever you want to belive. You take the red pill you stay in wonderland and I show you how deep the rabit hole goes". This will promt the user to choose either a red or blue pill from Morpheus's hands. As the user picks up the pill from Morpheus's hands a camera in the back the box behind Morpheus will detect whether the pill selected is blue or red using a model we trained using trainable machines. Based on the users selection a candy pill will be despensed through a slide at the bottom of the device. 
 
-Device design plan: 
+- Our device will be made up of a 3D printed Morpheus and cardboard box behind him to store the Pi, camera, motors, and pill dispensors. 
+- The way the interaction will work is when the device is turned on Morpheus will start speaking "This is your last chance, after this there is no turning back. You take the blue pill the story ends and you wake up in your bed and belive whatever you want to belive. You take the red pill you stay in wonderland and I show you how deep the rabit hole goes". 
+- This will promt the user to choose either a red or blue pill from Morpheus's hands. 
+- As the user picks up the pill from Morpheus's hands a camera in the back the box behind Morpheus will detect whether the pill selected is blue or red using a model we trained using trainable machines. 
+- Based on the users selection a candy pill will be despensed through a slide at the bottom of the device. 
+
+Device design: 
 
 Front- 
 
@@ -234,6 +243,10 @@ Front-
 Back/inside-
 
 <img width="503" alt="Screen Shot 2021-10-28 at 10 54 17 PM" src="https://user-images.githubusercontent.com/73661058/139366050-552c59a1-0333-4ab1-a440-c647f09ece42.png">
+
+Other experimentation and ideations: 
+Major things we considered at this stage were where the camera should be placed for the user to be easily recognize where they should be showing the pill, 
+where and how the pill should be dispensed, and how things should be layed out behind the board. We were ambitious and excited, so there were a lot to be placed behind the board. We brainstormed a lot about how the image recognition would trigger the dispensing and what physical shape will be most appropriate and feasible for our prototype.
 
 Other experimentation and ideation: 
 
@@ -258,15 +271,29 @@ Morpheus 3D printed design:
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+    When the user picks up one of the pills, it should be able to detect i) the fact that user has picked up something ii) and the color of the pill
+2. When does it fail?
+    It fails when the user is holding the pill too far from the camera or holding both of them or not showing it to the camera at at all or pill is not visible to from the camera's angle. Sometimes the user's finger and nails will hide the pill shape and color too much so lead to failure. 
+    
+3. When it fails, why does it fail?
+    Because the model is trained in the case where the user is properly holding the pill, visible to the camera, with the right distance. In the training images, we held the pill pretty close to the camera, not hiding the pill with fingers. 
+    Also, some failures were due to the low resolution on Pi camera we're using. We assume that RGB layers are not so strong and it did not recognize red so well sometimes. The model that performed very well with the laptop webcam did not show the same accuracy with the Pi camera. 
+   
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+    The user might not know where the camera is. (I had a laptop and the pi camera on, and it was bit confusing where to look at since the display was on the laptop)
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+An educated user who had prior experiences with some image recognition tools might be aware of the uncertainties caused by lighting, distance, and background situation. But we cannot generalize this. An arbitrary user might not be aware of what affects the performance of image/video recognition. Also, when the device does not response for a long time, the user might notice the uncertainties and try to do something.
+    
+2. How bad would they be impacted by a miss classification?
+    In our prototype miss classification would not be bad, the consquence would just be the user getting a red candy instead of a blue candy or vice versa. However if this was the real matrix and Morphues relied on our classifier the conquences of miss classification would be very severe and life changing. 
+    
+3. How could change your interactive system to address this?
+    We would need to use a more robust classification model to ensure that the model would always easily detect red or blue pills correctly. With our current model we could address this by adding a simple sign that promoted thr user to hold the pill closer to the camera to help mitigate error. 
+
+4. Are there optimizations you can try to do on your sense-making algorithm.
+We can add more images from diverse distance and background settings to the training in the first place for more robust performance of recognition algorithm. We can also add other features to recognize like which way the user reaches out their hand, because the red pill is always going to be placed on the left side(when faced).  
 
 ### Part D
 ### Characterize your own Observant system
