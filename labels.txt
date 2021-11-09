@@ -1,4 +1,0 @@
-0 red pill
-1 blue pill 
-2 face
-3 empty 
