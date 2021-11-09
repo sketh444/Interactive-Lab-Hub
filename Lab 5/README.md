@@ -293,6 +293,22 @@ The devices like a plastic 3D model and cardboard. It also feels like delious ca
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
+Work in progress: 
+![65812233421__840B57E3-99C9-4218-A28B-C75872413866](https://user-images.githubusercontent.com/73661058/140865540-f993295c-e5cd-432b-ab2b-8f6352a18c30.jpg)
+![IMG_7018](https://user-images.githubusercontent.com/73661058/140865548-ef26529e-62b3-4c8f-8b1b-8a7b57b5b9b3.jpg)
+![IMG_7015](https://user-images.githubusercontent.com/73661058/140865560-ed654345-f9a3-4e6e-b65d-f64c55265a5b.jpg)
+![IMG_7015](https://user-images.githubusercontent.com/73661058/140865563-59d3076c-752b-4c9f-a4bf-453f2edb8608.jpg)
+![IMG_6443](https://user-images.githubusercontent.com/73661058/140865568-d628782d-184f-4d96-b1f2-6cde0bd65138.jpg)
+
+Final Design: 
+
+Front - 
+![IMG_7021](https://user-images.githubusercontent.com/73661058/140865621-47396c51-e2cb-4664-84d9-7a948315e0f6.jpg)
+
+Back- 
+![IMG_7028](https://user-images.githubusercontent.com/73661058/140865636-b5e1dcbc-5745-459b-866d-98d70d155d37.jpg)
+
+Video-
 https://user-images.githubusercontent.com/73661058/140865315-8168582a-f1fa-4041-8eff-4fa0b44ae20b.mov
 
 
