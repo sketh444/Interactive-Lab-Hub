@@ -306,13 +306,12 @@ Are device can be used for a fun and interactive way to eat red and blue candy.
 A good environment would be in a Matrix enthusiasts home, perhaps on their desk or coffee table. Ideally when the interaction takes place the backround will be clear so Morpheus camera can clearly see the red or blue pill.  
 * What is a bad environment for X?
 A Bad environment would be somewhere crowded where the device can not clearly pick up on the detection of the red or blue pill which is essental for the interaction to work correctly. Another bad environmemt would be in ther presents on a non Matrix enthusiasts or Matrix hater. 
-* When will X break?
-The device will break any of its parts stoped working, the camera, the Pi, or the motors. The device would also break if it was phsyically destroyed, Morpheus was smashed or disasembled from his box set up. Anther way the device could break is if the red and blue pills where taken from Morpheus hands, the user would not know what to do or how to interact with the device. Lastly the device would break if the candy it dispenses runs out. 
-* When it breaks how will X break?
+* When will X break?/ When it breaks how will X break?
+The device will break if any of its parts stoped working, the camera, the Pi, or the motors. The device would also break if it was phsyically destroyed, Morpheus was smashed or disasembled from his box set up. Anther way the device could break is if the red and blue pills where taken from Morpheus hands, the user would not know what to do or how to interact with the device. Lastly the device would break if the candy it dispenses runs out. 
 * What are other properties/behaviors of X?
 The device reenacts a classic sense from the Matrix through audio and user interaction. The device has computer vision and detect red and blue pills. The device can make dispensing decsions based on the sight of red or blue pills. The device dispenses red and blue candy. The devive allows for appreciation of the Matrix. 
 * How does X feel?
-The devices like a plastic 3D model and cardboard. It also feels like delious candy in the users mouth. 
+Phsyically the devices like a plastic 3D model and cardboard. It also feels like delious candy in the users mouth. Emotionally the device gives off eerie syfy vibes and matrix nostalgia. 
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
@@ -326,6 +325,7 @@ Work in progress:
 ![IMG_7015](https://user-images.githubusercontent.com/73661058/140865560-ed654345-f9a3-4e6e-b65d-f64c55265a5b.jpg)
 ![IMG_7015](https://user-images.githubusercontent.com/73661058/140865563-59d3076c-752b-4c9f-a4bf-453f2edb8608.jpg)
 ![IMG_6443](https://user-images.githubusercontent.com/73661058/140865568-d628782d-184f-4d96-b1f2-6cde0bd65138.jpg)
+![IMG_6462](https://user-images.githubusercontent.com/73661058/140868718-3127fbda-7bc9-4ce1-aa5b-0363fae76ea5.jpg)
 
 Final Design: 
 
