@@ -152,6 +152,9 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+This code is reflected in displayColor.py
+
+https://user-images.githubusercontent.com/73661058/141871537-41e7503b-0aef-4821-bb60-bacd8d8d7ba3.mov
 
 ### Part E
 ### Make it your own
@@ -166,5 +169,5 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
-<!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
+
 
