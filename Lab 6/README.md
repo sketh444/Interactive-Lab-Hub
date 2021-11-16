@@ -86,7 +86,7 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
-1. Messaging app for people to communicate with thier Pi's. This could be limited to text messasge but perhaps also drawings. 
+1. Messaging app for people to communicate with thier Pi's. This would not be limited to text messasge, it perhaps also include drawings. 
 2. A surveillance system that detects whether there is an intruder trying to break into someones home. At the door of someones home there could be sensors/ cameras to detect suspicious activity and send a message to user and law enforment when such activity is detected. 
 3. A group project collaboration tool. A message could be sent to each contributor when a contributor finish thier part of the project or assignment. 
 4. A group workout tool. This system would keep track of how much each member worked out towrads the group goal. It would notify each member in the group when someone has done work toward the great goal. This would serve to motive group member to exercise. 
