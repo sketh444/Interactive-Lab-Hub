@@ -1,15 +1,8 @@
-# Staging Interaction Lab
+# The Tail of Two Kitties
 
-## Prep
+## Project Description
 
+## Design Process
 
+## Final Device Design 
 
-
-
-##The Tail of Two Kitties
-
-##Description
-
-##Design Process
-
-##Final Device
