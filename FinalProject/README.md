@@ -59,6 +59,17 @@ Simpler cat 3D model puzzle we used:
 
 ![IMG_7064](https://user-images.githubusercontent.com/73661058/145750078-69435904-f33b-41a9-aba5-3f87c68b9e88.jpg)
 
+Once had our cardboard skeletons created, we added in our servo motors and tested out the movement of our kitties as skelton cats. To do this, we detached the arm of the cat, cut a gap in the skelton to place the motor, and hot glued the detached cat arm to the wing of the motor. For the tail, we started by completely removing the cardboard tail and replacing it with wire cover in yarn (a more realistic looking tail). When the cut another gap in the rear of the cats to place thier tail motors. 
+
+[Add any details I am missing here and any additional photos you have]
+
+Photos of this stage: 
+
+<img width="829" alt="Screen Shot 2021-12-12 at 11 09 28 PM" src="https://user-images.githubusercontent.com/73661058/145751091-66acae65-2b39-4e8b-8f7c-f1fc218a6c93.png">
+
+
+<img width="556" alt="Screen Shot 2021-12-12 at 11 09 58 PM" src="https://user-images.githubusercontent.com/73661058/145751120-eb435b79-7ca3-4506-8318-b09975b34ad5.png">
+
 
 ## Final Device Design 
 
