@@ -59,7 +59,7 @@ Simpler cat 3D model puzzle we used:
 
 ![IMG_7064](https://user-images.githubusercontent.com/73661058/145750078-69435904-f33b-41a9-aba5-3f87c68b9e88.jpg)
 
-Once had our cardboard skeletons created, we added in our servo motors and tested out the movement of our kitties as skelton cats. To do this, we detached the arm of the cat, cut a gap in the skelton to place the motor, and hot glued the detached cat arm to the wing of the motor. For the tail, we started by completely removing the cardboard tail and replacing it with wire cover in yarn (a more realistic looking tail). When the cut another gap in the rear of the cats to place thier tail motors. 
+Once had our cardboard skeletons created, we added in the servo motors and tested out the movement of our kitties as skelton cats. To do this, we detached the arm of the cat, cut a gap in the skelton to place the motor, and hot glued the detached cat arm to the wing of the motor. For the tail, we started by completely removing the cardboard tail and replacing it with wire cover in yarn (a more realistic looking tail). then the cut another gap in the rear of the cats to place thier tail motors. 
 
 [Add any details I am missing here and any additional photos you have]
 
@@ -70,8 +70,36 @@ Photos of this stage:
 
 <img width="556" alt="Screen Shot 2021-12-12 at 11 09 58 PM" src="https://user-images.githubusercontent.com/73661058/145751120-eb435b79-7ca3-4506-8318-b09975b34ad5.png">
 
+Next we add metal places to the skelton for touch sensors [discuss how and why this failed] attached to alligator clips and covered the skeltons in furr. For the cat furr we used an old sweater we thirfted from Good Will. To get a cat shape from the furr we first created a pattern with thinner fabric and then cut it out of the thick furr material. Lastly we hot glued the furr coat on to the cat skeltons. 
+
+Fabric pattern for furr: 
+
+<img width="542" alt="Screen Shot 2021-12-12 at 11 31 00 PM" src="https://user-images.githubusercontent.com/73661058/145752752-78581013-b9c8-45e8-9572-f4337c93e5a9.png">
+
+<img width="551" alt="Screen Shot 2021-12-12 at 11 31 39 PM" src="https://user-images.githubusercontent.com/73661058/145752815-ab649266-ac61-4278-8fc2-e5c512987300.png">
+
+
+<img width="553" alt="Screen Shot 2021-12-12 at 11 32 16 PM" src="https://user-images.githubusercontent.com/73661058/145752843-591fb3e4-3495-4e68-9346-fa541159cbaf.png">
+
+Cat covered in furr: 
+
+<img width="529" alt="Screen Shot 2021-12-12 at 11 32 57 PM" src="https://user-images.githubusercontent.com/73661058/145752889-6070a3bf-a233-4c88-8f0a-3ef64048f2d8.png">
+
+[Add more details here and any more photos you have]
+
+The last step to the cats appearance was to add the heart light for interaction between the two cats. To do this we taped the LED lights to the chest of the cats, covered them in a thin furr to intensify thier shine, and put a duct tape heart on top of the chest furr. 
+
+Heart light: 
+
+<img width="509" alt="Screen Shot 2021-12-12 at 11 33 32 PM" src="https://user-images.githubusercontent.com/73661058/145752955-b879156c-d9de-4477-85e1-e24a95d62769.png">
+
+Under the cats we added a box for cat to stand on. This served to stablize the cat allowing it to stand and hide the pi, senors, and speaker from the user. 
+
+[Discuss more about the cats stand and box if necessary]
+
+[In general add any photos or details I missed from this section]
+
 
 ## Final Device Design 
 
-## Applications and Future Work 
 
