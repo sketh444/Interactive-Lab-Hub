@@ -33,7 +33,8 @@ Appearance of the two cats:
 
 One cat working:
 
-https://user-images.githubusercontent.com/73661058/145747708-835cf74d-e9f7-42ed-8715-fdd76bec728c.MOV
+https://user-images.githubusercontent.com/73661058/145748293-b33c4179-f564-44e3-8904-8b506f14eace.mov
+
 
 Two cats working together: 
 [Soul insert your video here]
