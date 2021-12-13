@@ -32,6 +32,7 @@ Appearance of the two cats:
 <img width="975" alt="Screen Shot 2021-12-12 at 10 27 58 PM" src="https://user-images.githubusercontent.com/73661058/145747859-02a0b7d6-1545-4ae9-8d12-89e53d377581.png">
 
 One cat working:
+
 https://user-images.githubusercontent.com/73661058/145747708-835cf74d-e9f7-42ed-8715-fdd76bec728c.MOV
 
 Two cats working together: 
