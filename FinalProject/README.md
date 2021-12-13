@@ -102,4 +102,28 @@ Under the cats we added a box for cat to stand on. This served to stablize the c
 
 ## Final Device Design 
 
+Final look: 
+
+<img width="528" alt="Screen Shot 2021-12-12 at 11 39 15 PM" src="https://user-images.githubusercontent.com/73661058/145753356-41e7d3c1-1dbd-4fe7-8f7a-37ed99b667da.png">
+
+Evolution of the cats: 
+
+<img width="987" alt="Screen Shot 2021-12-12 at 11 40 52 PM" src="https://user-images.githubusercontent.com/73661058/145753486-5a504150-8990-4678-a394-a148412aaba7.png">
+
+
+Cats working: 
+
+https://user-images.githubusercontent.com/73661058/145753313-f118803b-0259-4138-ba82-10a24565e6ff.mov
+
+
+Us with the cats 😊 : 
+
+<img width="517" alt="Screen Shot 2021-12-12 at 11 40 29 PM" src="https://user-images.githubusercontent.com/73661058/145753457-aa2a2e7b-e35a-41ef-ba3f-67a6326bb5cb.png">
+
+
+[Add any more photos for photos and videos]
+
+[any comments about peoples reactions and interacts with the cats ]
+
+
 
