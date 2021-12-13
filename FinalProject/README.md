@@ -16,11 +16,24 @@ To create these two cats we used the following technology:
 - Servo motors
 - MQTT communication
 - Speakers
+- LED Light
 
 The appearance of the cats was made up of: 
 - Cardboard 
 - A furry sweater 
 - Conductive tape 
+
+To start building these two cats, we first created a simple 2D card borad verison of the cats to ensure all the technology would work well together and to prototype user ineraction. The 2D verison of the cats used the servo motor to move a cardbord arm of the cat when it is touched. The 2D cats also purr when they are touched and demonstrate the connection between the two cats when both 2D cats are touched at the same time by shine a red LED light through a paper heart.
+
+Appearance of the two cats: 
+
+One cat working: 
+
+Two cats working together: 
+[Soul insert your video here]
+
+Back view of the cats: 
+
 
 ## Final Device Design 
 
