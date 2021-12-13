@@ -18,9 +18,9 @@ To create these two cats we used the following technology:
 - Speakers
 
 The appearance of the cats was made up of: 
--Cardboard 
--A furry sweater 
--Conductive tape 
+- Cardboard 
+- A furry sweater 
+- Conductive tape 
 
 ## Final Device Design 
 
