@@ -32,7 +32,7 @@ The appearance of the cats was made up of:
 
 Appearance
 
-- Overall look and feel: Cute and soft. Our goal is to cause a pemotional reaction from the user. We want to recreate the soothing and joyful experience with a cat, not a scary one.,
+- Overall look and feel: Cute and soft. Our goal is to cause an emotional reaction from the user. We want to recreate the soothing and joyful experience with a cat, not a scary one.,
 - Shape and posture: Seated, because it gives more stability in the shape and we imagined it to be more natural for cat to move her arm while seated.
 - Realistic or cartoonish: Cartoonish, it might look scary or creepy with a realistic features. We drew few realistic eyes and knew right away it is going to scare people.
 - Locations for the tail, arm, and heart: Locations of the moving body parts had to be realistically adopting its positions in the real cat but also feasible for us to build with the sensors. From the prototyping, we learned that users tend to be forgiving towards slightly unnatural positions of body parts.
