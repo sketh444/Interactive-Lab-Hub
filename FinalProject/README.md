@@ -10,5 +10,19 @@ The inspiration for this project stems a lot from our time quarantined during 20
 
 ## Design Process
 
+To create these two cats we used the following technology: 
+- Raspberry Pi
+- Capacitive touch sensors
+- Servo motors
+- MQTT communication
+- Speakers
+
+The appearance of the cats was made up of: 
+-Cardboard 
+-A furry sweater 
+-Conductive tape 
+
 ## Final Device Design 
+
+## Applications and Future Work 
 
