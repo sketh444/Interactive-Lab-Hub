@@ -7,7 +7,7 @@ Please place links here to the README.md's for each of your labs here:
 
 [Lab 2. Pi Saves the World](Lab%202/)
 
-[Lab 3. Pi as a Smart Fridge](Lab%203/)
+[Lab 3. Pi as a Smart Fridge](https://github.com/sketh444/Interactive-Lab-Hub/tree/Fall2021/Lab3)
 
 [Lab 4. Pierre the Owl ](Lab%204/)
 
