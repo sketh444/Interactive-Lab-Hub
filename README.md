@@ -1,7 +1,6 @@
 # Bella Baidak's-Lab-Hub
 for [Interactive Device Design](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/)
 
-Please place links here to the README.md's for each of your labs here:
 
 [Lab 1. Sunflower Light](Lab%201/)
 
@@ -13,5 +12,5 @@ Please place links here to the README.md's for each of your labs here:
 
 [Lab 5. Red or Blue Pill](Lab%205/)
 
-[Final Project. The Tail of Two Kitties ](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/FinalProject.md)<!--[](Final%20Project/)-->
+[Final Project. The Tail of Two Kitties ](https://github.com/sketh444/Interactive-Lab-Hub/tree/Fall2021/FinalProject)<!--[](Final%20Project/)-->
 
